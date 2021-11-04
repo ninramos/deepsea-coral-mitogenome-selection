@@ -42,7 +42,7 @@ MAIN: {
         system("echo aaDist = 0 >> $a_files[$i].ctl");
         system("echo model = 2 >> $a_files[$i].ctl");
         system("echo NSsites = 2 >> $a_files[$i].ctl");
-        system("echo icode = 0 >> $a_files[$i].ctl");
+        system("echo icode = 4 >> $a_files[$i].ctl");
         system("echo Mgene = 0 >> $a_files[$i].ctl");
         system("echo fix_kappa = 0 >> $a_files[$i].ctl");
         system("echo kappa = 2 >> $a_files[$i].ctl");
