@@ -28,9 +28,9 @@ MAIN: {
 
 #    my %data = ();
     for (my $i = 0; $i < @t_files; $i++) { 
-        system("echo seqfile = /bwdata2/2019workshop/d.deleo/PAML_Hyphy/$a_files[$i] >> $a_files[$i].ctl");
-        system("echo treefile = /bwdata2/2019workshop/d.deleo/PAML_Hyphy/$t_files[$i] >> $a_files[$i].ctl");
-        system("echo outfile = /bwdata2/2019workshop/d.deleo/PAML_Hyphy/mlcnull_$a_files[$i] >> $a_files[$i].ctl");
+        system("echo seqfile = /niramos/mitogenomedata/$a_files[$i] >> $a_files[$i].ctl");
+        system("echo treefile = /niramos/mitogenomedata/$t_files[$i] >> $a_files[$i].ctl");
+        system("echo outfile = /niramos/mitogenomedata/mlcnull_$a_files[$i] >> $a_files[$i].ctl");
         system("echo noisy = 4 >> $a_files[$i].ctl");
         system("echo verbose = 1 >> $a_files[$i].ctl");
         system("echo runmode = 0 >> $a_files[$i].ctl");
