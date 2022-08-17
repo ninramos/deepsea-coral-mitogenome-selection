@@ -41,24 +41,27 @@ Ramos, N. I., DeLeo, D. M., McFadden, C. S. Quattrini, A. M. (2021). *Depth-adap
 
 - can add `rcluster10` for relaxed clustering to speed up computation (means only top 10% partitiion schemes are considered to save computations) 
 
+> For more information on how to run IQtree: [Begginer's tuturial](http://www.iqtree.org/doc/Tutorial#choosing-the-right-substitution-model)
+
 >IQtree will produce three outfiles: 
 >**filename.phy.treefile** is the maximum-likelihood tree in NEWICK format which can be visualized by Figtree, and what you will need to run codeml
 
-**Unroot tree (R)**
 
-use **Script_to_unroot_tree.R** found in Code/
+**Unroot tree on R**
 
-**Remove extra support values from unrooted tree (R)** 
+- use **Script_to_unroot_tree.R** found in Code/
 
-use **Script_clean_unrooted_tree.R** found in Code/
+**Remove extra support values from unrooted tree on R** 
+
+- use **Script_clean_unrooted_tree.R** found in Code/
 
 **Labeling unrooted species tree** 
 
-- Some models for codeml require specied branches on the species tree to be labeled for analysis. This allows separate ω's to be generated through different parameters of interest being assigned among the branches. 
-- For this project, both *Branch models* and *Branch-site models* required the species tree to be labeled. We defined the foreground branch as deep-water species and background branch as shallow-water species. 
-- To label unrooted species tree in newick format: 
-	- label foreground branches with a `#1` inserted after the name/ID but before the semicolon and support value 
-	- example: `Camptaug#1:0.077304,Ausvul#1:0.071029`
+> - Some models for codeml require specied branches on the species tree to be labeled for analysis. This allows separate ω's to be generated through different parameters of interest being assigned among the branches. 
+> - For this project, both *Branch models* and *Branch-site models* required the species tree to be labeled. We defined the foreground branch as deep-water species and background branch as shallow-water species. 
+> - To label unrooted species tree in newick format: 
+>	- label foreground branches with a `#1` inserted after the name/ID but before the semicolon and support value 
+>	- example: `Camptaug#1:0.077304,Ausvul#1:0.071029`
 
 For more information on how to run IQtree: [Begginer's tuturial](http://www.iqtree.org/doc/Tutorial#choosing-the-right-substitution-model)
 
