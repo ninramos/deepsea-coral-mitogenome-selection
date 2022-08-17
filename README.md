@@ -35,24 +35,22 @@ Ramos, N. I., DeLeo, D. M., McFadden, C. S. Quattrini, A. M. (2021). *Depth-adap
 
 - Create a species tree for all of the sequences in alignment using IQtree
 
-	`iqtree2 -s filename.phy -m GTR+G -bb 1000` 
-	> to run with the GTR+G model 
-	`iqtree2 -s filename.phy -m 
+`iqtree2 -s filename.phy -m GTR+G -bb 1000` to run with the GTR+G model 
+
+`iqtree2 -s filename.phy -m TESTNEW -bb 1000` to run with ModelFinder and construct trees with the best-fit model
 
 - can add `rcluster10` for relaxed clustering to speed up computation (means only top 10% partitiion schemes are considered to save computations) 
-- `-bb 1000` to specify number of bootstrap replicates
 
-IQtree will produce three outfiles: 
+>IQtree will produce three outfiles: 
+>**filename.phy.treefile** is the maximum-likelihood tree in NEWICK format which can be visualized by Figtree, and what you will need to run codeml
 
-- **filename.phy.treefile** is the maximum-likelihood tree in NEWICK format which can be visualized by Figtree, and what you will need to run codeml
+**Unroot tree (R)**
 
-4.2 Unroot tree
+use **Script_to_unroot_tree.R** found in Code/
 
-- **Script_to_unroot_tree.R**
+**Remove extra support values from unrooted tree (R)** 
 
-4.3 Remove extra support values from unrooted tree if needed (R) 
-
-- **Script_clean_unrooted_tree.R**
+use **Script_clean_unrooted_tree.R** found in Code/
 
 **Labeling unrooted species tree** 
 
