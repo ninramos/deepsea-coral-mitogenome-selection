@@ -16,30 +16,28 @@ Ramos, N. I., DeLeo, D. M., McFadden, C. S. Quattrini, A. M. (2021). *Depth-adap
 
 
 --- 
-## Data Collection and Preparation
+## 1. Data Collection and Preparation
 
-**1. Mitogenomes** 
+**Download coral mitogenome data from GenBank** 
+> List of accession IDs used in this study can be found in Supplementary Info Table S1. 
 
-Coral mitogenome sequences can be found as the fasta files above 
+**Annotate mitogenomes to identify protein-coding genes** 
 
-**2. Annotation** 
+> Mitogenomes annotated using [Mitos2](http://mitos2.bioinf.uni-leipzig.de/index.py) to identify protein coding genes, tRNAs, and rRNAs
+> - reference NCBI RefSeq 89 Metazoa 
+> - genetic code 5 (invertebrate)
 
-Mitogenomes annotated using [Mitos2](http://mitos2.bioinf.uni-leipzig.de/index.py) to identify protein coding genes, tRNAs, and rRNAs
+**Align protein-coding genes separately with MAFFT**
 
-- reference NCBI RefSeq 89 Metazoa 
-- genetic code 5 (invertebrate)
+> - L-INS-I method 
 
-**3. Alignments**
+**Phylogenetic Trees**
 
-Align protein-coding genes separately with MAFFT
+- Create a species tree for all of the sequences in alignment using IQtree
 
-- L-INS-I method 
-
-**4. Phylogenetic Trees**
-
-4.1 Create a species tree for all of the sequences in alignment using IQtree
-
-`iqtree2 -s filename.phy -m GTR+G`
+	`iqtree2 -s filename.phy -m GTR+G -bb 1000` 
+	> to run with the GTR+G model 
+	`iqtree2 -s filename.phy -m 
 
 - can add `rcluster10` for relaxed clustering to speed up computation (means only top 10% partitiion schemes are considered to save computations) 
 - `-bb 1000` to specify number of bootstrap replicates
