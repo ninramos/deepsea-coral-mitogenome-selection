@@ -16,22 +16,22 @@ Ramos, N. I., DeLeo, D. M., McFadden, C. S. Quattrini, A. M. (2021). *Depth-adap
 
 
 --- 
-## 1. Data Collection and Preparation
+# Data Collection and Preparation
 
-**Download coral mitogenome data from GenBank** 
+**1. Download coral mitogenome data from GenBank** 
 > List of accession IDs used in this study can be found in Supplementary Info Table S1. 
 
-**Annotate mitogenomes to identify protein-coding genes** 
+**2. Annotate mitogenomes to identify protein-coding genes** 
 
 > Mitogenomes annotated using [Mitos2](http://mitos2.bioinf.uni-leipzig.de/index.py) to identify protein coding genes, tRNAs, and rRNAs
 > - reference NCBI RefSeq 89 Metazoa 
 > - genetic code 5 (invertebrate)
 
-**Align protein-coding genes separately with MAFFT**
+**3. Align protein-coding genes separately with MAFFT**
 
 > - L-INS-I method 
 
-**Phylogenetic Trees**
+**4. Phylogenetic Trees**
 
 - Create a species tree for all of the sequences in alignment using IQtree
 
@@ -45,7 +45,6 @@ Ramos, N. I., DeLeo, D. M., McFadden, C. S. Quattrini, A. M. (2021). *Depth-adap
 
 >IQtree will produce three outfiles: 
 >**filename.phy.treefile** is the maximum-likelihood tree in NEWICK format which can be visualized by Figtree, and what you will need to run codeml
-
 
 **Unroot tree on R**
 
@@ -61,12 +60,12 @@ Ramos, N. I., DeLeo, D. M., McFadden, C. S. Quattrini, A. M. (2021). *Depth-adap
 > - For this project, both *Branch models* and *Branch-site models* required the species tree to be labeled. We defined the foreground branch as deep-water species and background branch as shallow-water species. 
 > - To label unrooted species tree in newick format: 
 >	- label foreground branches with a `#1` inserted after the name/ID but before the semicolon and support value 
->	- example: `Camptaug#1:0.077304,Ausvul#1:0.071029`
+>	- example: `DNA28_Letepsammia_superstes#1:0.0002563394,DNA41_Rhombopsammia_niphada#1:0.0003394101`
 
-For more information on how to run IQtree: [Begginer's tuturial](http://www.iqtree.org/doc/Tutorial#choosing-the-right-substitution-model)
+
 
 ---
-## Running codeml 
+# Running codeml 
 
 [PAML Manual](http://abacus.gene.ucl.ac.uk/software/pamlDOC.pdf)
 
@@ -78,7 +77,7 @@ For more information on how to run IQtree: [Begginer's tuturial](http://www.iqtr
 
 **To create control file using scripts** 
 
-1. 	Download perl scripts from "Create Control Files" 
+1. 	Download perl scripts from "Data/Create Control Files/" 
 
 
 2. 	Create a list of the alignment files that you wish to run for these models. 
