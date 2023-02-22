@@ -68,6 +68,7 @@ A portion of analyses were conducted on the Smithsonian High Performance Computi
 
 ---
 # Running codeml 
+The following workflow was supported by modifications made to code presented in https://github.com/Santagata/Select_Test
 
 [PAML Manual](http://abacus.gene.ucl.ac.uk/software/pamlDOC.pdf)
 
