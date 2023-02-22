@@ -1,0 +1,15 @@
+
+DNA, atp6_dec21.fasta=1-717
+DNA, atp8_dec21.fasta=718-933
+DNA, cox1_dec21.fasta=934-2511
+DNA, cox2_dec21.fasta=2512-3243
+DNA, cox3_dec21.fasta=3244-4029
+DNA, cytb_dec21.fasta=4030-5214
+DNA, muts_dec21_amqedit.fasta=5215-8739
+DNA, nad1_dec21.fasta=8740-9732
+DNA, nad2_dec21.fasta=9733-10977
+DNA, nad3_dec21.fasta=10978-11340
+DNA, nad4_dec21.fasta=11341-12840
+DNA, nad4l_dec21.fasta=12841-13134
+DNA, nad5_dec21.fasta=13135-15015
+DNA, nad6_dec21.fasta=15016-15648
