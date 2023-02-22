@@ -1,0 +1,5 @@
+#NEXUS
+begin trees;
+	tree tree_1 = [&R] (((((('Stauropathes sp.'[&!color=#00008b]:3.34E-4,'Stauropathes arctica'[&!color=#00008b]:8.3E-5)[&bootstrap=93,!color=#00008b]:2.46E-4,'Bathypathes cf. patula'[&!color=#00008b]:6.75E-4)[&bootstrap=100,!color=#00008b]:0.002896,'Telopathes cf. magna'[&!color=#00008b]:0.001951)[&bootstrap=100,!color=#00008b]:0.006812,('Parantipathes sp.'[&!color=#00008b]:0.002106,'Umbellapathes sp.'[&!color=#00008b]:0.001726)[&bootstrap=100,!color=#00008b]:0.00917)[&bootstrap=100,!color=#00008b]:0.039031,(((('Cupressopathes abies':1.0E-6,'Cupressopathes pumila':3.52E-4)[&bootstrap=100]:8.82E-4,'Myriopathes ulex':1.6E-5)[&bootstrap=100]:0.066192,'Elatopathes abietina':0.064771)[&bootstrap=52]:0.003536,('Aphanipathes pedata':0.060528,'Antipathes delicatula':0.108739)[&bootstrap=100]:0.021502)[&bootstrap=100]:0.012113):0.023663,'Acanthopathes thyoides':0.023663);
+end;
+
