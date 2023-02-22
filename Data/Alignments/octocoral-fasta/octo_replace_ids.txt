@@ -1,0 +1,88 @@
+####replacing octocoral ids with names 
+
+sed 's/Anthogrand#1/Anthoptilum grandiflorum/'g |
+sed 's/Anthop1#1/Anthoptilum sp. 1/'g |
+sed 's/Halfim#1/Balticina cf. finmarchica/'g |
+sed 's/Umbsp2#1/Umbellula sp. 2/'g |
+sed 's/Keratoi#1/Keratoisidinae sp./'g |
+sed 's/ANT177#1/Acanella sp./'g |
+sed 's/ANT170#1/Isidoides armata/'g |
+sed 's/ANT047/Primnoella chilensis/'g |
+sed 's/ANT175#1/Candidella imbricata/'g |
+sed 's/ANT023#1/Chrysogorgia tricaulis/'g |
+sed 's/ANT176#1/Radicipes sp./'g |
+sed 's/ANT026/Cornularia pabloi/'g |
+sed 's/ANT028/Heliopora coerulea/'g|
+sed 's/ANT079/Nanipora cf. kamurai/'g |
+sed 's/ANT019/Alcyonium acaule/'g |
+sed 's/ANT021/Alcyonium haddoni/'g |
+sed 's/ANT060#1/Anthothela grandiflora/'g |
+sed 's/ANT020/Alcyonium digitatum/'g |
+sed 's/ANT038/Sarcophyton trocheliophorum/'g |
+sed 's/ANT179/Sinularia penghuensis/'g |
+sed 's/ANT025/Coelogorgia palmosa/'g |
+Sed 's/ANT098/Anthelia glauca/'g |
+Sed 's/ANT104/Ovabunda macrospiculata/'g |
+Sed 's/ANT115/Protodendron repens/'g |
+Sed 's/ANT171/Caementabunda simplex/'g |
+Sed 's/ANT102/Paralemnalia thyrsoides/'g |
+Sed 's/ANT031/Plexaura kuna/'g |
+sed 's/ANT188/Eunicea flexuosa/'g |
+sed 's/ANT084/Muriceopsis flavida/'g |
+sed 's/ANT052/Acanthogorgia breviflora/'g |
+sed 's/ANT054/Bebryce sp./'g |
+sed 's/ANT076/Paracis sp./'g |
+sed 's/ANT081/Thrombophyton coronatum/'g |
+sed 's/ANT066/Astrogorgia sp./'g |
+sed 's/ANT112/Keroeides sp./'g |
+sed 's/ANT069/Cladiella pachyclados/'g |
+sed 's/ANT106/Discophyton rudyi/g' |
+sed 's/ANT065/Annella mollis/'g |
+sed 's/ANT114/Isis hippuris/'g |
+sed 's/ANT116/Rumphella sp./'g |
+sed 's/ANT040/Corymbophyton bruuni/'g |
+sed 's/ANT044/Dendronephthya sinaiensis/'g |
+sed 's/ANT055/Eunephthya thyrsoidea/'g |
+sed 's/ANT107/Ceeceenus quadrus/'g |
+sed 's/ANT064/Sinularia brassica/'g |
+sed 's/ANT097/Nephthyigorgia sp./'g |
+sed 's/ANT080#1/Aquaumbra klapferi/'g |
+sed 's/ANT050/Paratelesto sp./'g |
+sed 's/ANT099/Arula petunia/'g |
+sed 's/ANT073/Acrossota amboinensis/'g |
+sed 's/ANT070/Nidalia simpsoni/'g |
+sed 's/ANT053/Siphonogorgia godeffroyi/'g |
+sed 's/ANT068/Solenocaulon sp./'g |
+sed 's/ANT072/Melithaea erythraea/'g |
+sed 's/ANT108/Azoriella bayeri/'g |
+sed 's/ANT048/Incrustatus comauensis/'g |
+sed 's/ANT101/Malacacanthus capensis/'g |
+sed 's/ANT024/Clavularia inflata/'g |
+sed 's/ANT030/Parasphaerasclera valdiviae/'g |
+sed 's/ANT027/Erythropodium caribaeorum/'g |
+sed 's/ANT051/Briareum hamrum/'g |
+sed 's/ANT276/Homophyton verrucosum/'g |
+sed 's/ANT061/Ideogorgia capensis/'g |
+sed 's/ANT113/Parisis sp./'g |
+sed 's/ANT085#1/Anthomastinae n. sp./'g |
+sed 's/ANT287#1/Pseudoanthomastus sp./'g |
+sed 's/ANT082#1/Chelidonisis aurantiaca mexicana/'g |
+sed 's/ANT083/Ellisella sp./'g |
+sed 's/ANT178/Dichotella gemmacea/'g |
+sed 's/Pacul#1/Pennatula aculeata/'g |
+sed 's/Pacul2#1/Pennatula cf. aculeata/'g |
+sed 's/ANT111/Renilla muelleri/'g |
+sed 's/Pinflat#1/Ptilella cf. inflata/'g |
+sed 's/Pgrandis#1/Ptilella grandis/'g |
+sed 's/ANT078#1/Distichoptilum gracile/'g |
+sed 's/Protop#1/Protoptilum carpenteri/'g |
+sed 's/Koph3#1/Kophobelemnon sp. 3/'g |
+sed 's/Koph4#1/Kophobelemnon sp. 4/'g |
+sed 's/ANT059#1/Kophobelemnon sp./'g |
+sed 's/Virgula/Virgularia mirabilis/'g |
+sed 's/ANT032/Virgularia schultzei/'g |
+sed 's/ANT074/Veretillum cf. cynomorium/'g |
+Sed 's/ANT062/Alertigorgia orientalis/'g |
+sed 's/Umbhux#1/Umbellula huxleyi/'g 
+
+
