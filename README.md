@@ -3,16 +3,17 @@
 This repository contains supporting data and workflow for assessing positive selection in deep- and shallow- water species of corals. 
 The data and workflow provided within this repository are consistent with: 
 
-Ramos, N. I., DeLeo, D. M., Horowitz, J., McFadden, C. S. Quattrini, A. M. (2021). *Depth-adapted gene discovery in deep-sea corals.* [[Poster presentation]](https://naturalhistory.si.edu/sites/default/files/media/file/nramosnhreposterfinaluploadblocked.pdf). NMNH NHRE Research Symposium. 
+Ramos, N. I., DeLeo, D. M., Horowitz, J., McFadden, C. S. Quattrini, A. M. Selection in coral mitogenomes, with insights into adaptations in the deep sea. *Scientific Reports* (In Review).
 
 
 ---
-## You will need the following programs downloaded to complete this analysis 
+## The following programs were used to complete this analysis 
 
 - [Iqtree](http://www.iqtree.org) to create Maximum-likelihood tree
 - [Mitos2](http://mitos2.bioinf.uni-leipzig.de/index.py) to annotate sequences
 - [MAFFT](https://mafft.cbrc.jp/alignment/software/) to align sequences
-- [codeml](http://abacus.gene.ucl.ac.uk/software/paml.html) for positive selection analysis 
+- [Phyluce](https://github.com/faircloth-lab/phyluce) to concatenate protein-coding genes
+- [Codeml](http://abacus.gene.ucl.ac.uk/software/paml.html) for positive selection analysis 
 
 
 --- 
