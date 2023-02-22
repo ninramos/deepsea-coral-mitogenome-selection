@@ -1,0 +1,144 @@
+GenID		Species
+
+Anthogrand	Anthoptilum grandiflorum 
+Anthop1		Anthoptilum sp. 1 
+Halfim		Balticina finmarchica 
+ANT029 		Keratoisidinae sp. 
+Keratoi		Kophobelemnon sp. 3 
+Koph4		Kophobelemnon sp. 4 
+Pacul		Pennatula aculeata 
+Pacul2		Pennatula cf. aculeata 
+Pinflat		Ptilella cf. inflata 
+Pgrandis		Ptilella grandis 
+Protop		Protoptilum carpenteri 
+Umbhux		Umbellula huxleyi 
+Umbsp2		Umbellula sp. 2 
+Virgula		Virgularia mirabilis 
+ANT019 		Alcyonium acaule 
+ANT020 		Alcyonium digitatum 
+ANT021 		Alcyonium haddoni 
+ANT023 		Chrysogorgia tricaulis 
+ANT024 		Clavularia inflata 
+ANT025 		Coelogorgia palmosa 
+ANT026 		Cornularia pabloi 
+ANT027 		Erythropodium caribaeorum 		
+ANT028 		Heliopora coerulea 
+ANT030 		Parasphaerasclera valdiviae 		
+ANT031 		Plexaura kuna 
+ANT032 		Virgularia schultzei 
+ANT038 		Sarcophyton trocheliophorum 		
+ANT040 		Corymbophyton bruuni 
+ANT044 		Dendronephthya sinaiensis 
+ANT047 		Primnoella chilensis 
+ANT048 		Incrustatus comauensis 
+ANT050 		Paratelesto sp. 
+ANT051 		Briareum hamrum 
+ANT052 		Acanthogorgia breviflora 
+ANT053 		Siphonogorgia godeffroyi 
+ANT054 		Bebryce crucifera 
+ANT055 		Eunephthya thyrsoidea 
+ANT059 		Kophobelemnon sp. 
+ANT060 		Anthothela grandiflora 
+ANT061 		Ideogorgia capensis 
+ANT062 		Alertigorgia orientalis 
+ANT064 		Sinularia brassica 
+ANT065 		Annella mollis 
+ANT066 		Astrogorgia sp. 
+ANT068 		Solenocaulon sp. 
+ANT069 		Cladiella pachyclados 
+ANT070 		Nidalia simpsoni 
+ANT072 		Melithaea erythraea 
+ANT073 		Acrossota amboinensis 
+ANT074 		Veretillum cf. cynomorium 
+ANT076D 		Paracis sp. 
+ANT078 		Distichoptilum gracile 
+ANT079 		Nanipora cf. kamurai 
+ANT080 		Aquaumbra klapferi 
+ANT081 		Thrombophyton coronatum 
+ANT082 		Chelidonisis aurantiaca mexicana 
+		
+ANT083 		Ellisella sp. 
+ANT084 		Muriceopsis flavida 
+ANT085 		Anthomastinae n. sp. 
+ANT097 		Nephthyigorgia sp. 
+ANT098 		Anthelia glauca 
+ANT099 		Arula petunia 
+ANT101 		Malacacanthus capensis 
+ANT102 		Paralemnalia thyrsoides 
+ANT104 		Ovabunda macrospiculata 
+ANT106 		Discophyton rudyi 
+ANT107 		Ceeceenus quadrus 
+ANT108 		Azoriella bayeri 
+ANT111 		Renilla muelleri 
+ANT112 		Keroeides sp. 
+ANT113 		Parisis sp. 
+ANT114 		Isis hippuris 
+ANT115 		Protodendron repens 
+ANT116 		Rumphella sp. 
+ANT170 		Isidoides armata 
+ANT171 		Caementabunda simplex 
+ANT175 		Candidella imbricata 
+ANT176 		Radicipes sp. 
+ANT177 		Acanella sp. 
+ANT178 		Dichotella gemmacea 
+ANT179 		Sclerophytum penghuensis 
+ANT188 		Eunicea flexuosa 
+ANT276 		Homophyton verrucosum 
+ANT287 		Pseudoanthomastus sp. 
+DNA28 		Letepsammia superstes 
+DNA41 		Rhombopsammia niphada 
+ANT234 		Porites porites 
+IGS113B 		Letepsammia formosissima 
+ANT016 		Pocillopora damicornis 
+ANT017 		Stylophora pistillata 
+ANT255 		DesmophyllumLophelia pertusuma 
+ANT095 		Desmophyllum dianthus 
+admask 		Acropora digitifera 
+ANT013 		Acropora muricata 
+ANT018 		Pavona decussata 
+ANT096 		Flabellum alabastrum 
+ANT118 		Tubastraea coccinea 
+ANT120 		Mussismilia hispida 
+ANT161 		Favia fragum 
+ANT162 		Meandrina meandrites 
+ANT163 		Acropora palmata 
+ANT164 		Agaricia lamarcki 
+ANT165 		Siderastrea siderea 
+ANT166 		Orbicella annularis 
+ANT167 		Orbicella franksi 
+ANT168 		Dendrogyra cylindrus 
+ANT169 		Eusmilia fastigiata 
+ANT180 		Caryophyllia arnoldi 
+ANT181 		Cladocora sp. 
+ANT182 		Oculina varicosa 
+ANT183 		Oculina cf. varicosa 
+ANT184 		Porites astreoides 
+ANT185 		Balanophyllia elegans 
+ANT186 		Porites panamensis 
+ANT192 		Oculina patagonica 
+ANT196 		Porites divaricata 
+ANT197 		Oculina robusta 
+ANT198 		Porites sverdrupi 
+ANT235 		Porites cf. colonensis 
+ANT240 		Porites lobata 
+ANT265 		Porites evermanni 
+ANT269 		Porites lutea 
+ANT270 		Porites cf. australiensis 
+ANT281 		Madrepora oculata 
+ANT283 		Enallopsammia profunda 
+ANT284 		cf. Thecopsammia sp. 
+ANT286 		Paraconotrochus antarcticus 		
+atmask 		Acropora tenuis 
+ANT015 		Myriopathes ulex 
+ANT135 		Acanthopathes thyoides 
+ANT137 		Aphanipathes pedata 
+ANT143 		Bathypathes alaskensis 		
+ANT144 		Stauropathes sp. 
+ANT146 		Parantipathes sp. 
+ANT147 		Stauropathes arctica 
+ANT150 		Umbellapathes litocrada 
+ANT226 		Telopathes cf. magna 
+ANT229 		Elatopathes abietina 
+		Antipathes deliculata 
+		Cupressopathes abies 
+		Cupressopathes pumila 
