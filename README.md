@@ -1,10 +1,11 @@
 # Selection in coral mitogenomes, with insights into adaptations in the deep sea 
 
-This repository contains supporting data and workflow for assessing positive selection in deep- and shallow- water species of corals. 
+This repository contains supporting data and code for assessing positive selection in deep- and shallow- water species of corals. 
 The data and workflow provided within this repository are consistent with: 
 
 Ramos, N. I., DeLeo, D. M., Horowitz, J., McFadden, C. S. Quattrini, A. M. Selection in coral mitogenomes, with insights into adaptations in the deep sea. *Scientific Reports* (In Review).
 
+A portion of analyses were conducted on the Smithsonian High Performance Computing Cluster. *Smithsonian Institution.* https://doi.org/10.25572/SIHPC 
 
 ---
 ## The following programs were used to complete this analysis 
